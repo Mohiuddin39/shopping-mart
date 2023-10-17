@@ -1,0 +1,12 @@
+@import "./base.css";
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headDiv {
+    @apply bg-bgLight flex items-center justify-center p-1.5 rounded-full hover:bg-white border-[1px] bg-gray-200 hover:border-orange-600 duration-200;
+  }
+  .socalIcon {
+    @apply bg-slate-100 text-darkText p-1 inline-flex items-center justify-center rounded-md text-lg hover:bg-orange-600 hover:text-white cursor-pointer duration-200;
+  }
+}
